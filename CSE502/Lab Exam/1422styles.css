@@ -1,0 +1,90 @@
+body {
+    font-family: 'times new roman';
+    margin: 0;
+    padding: 0;
+    background-color: #e3f2fd;
+    color: #0d47a1;
+}
+
+header {
+    background-color: #cd1212;
+    padding: 15px;
+}
+
+main {
+    padding-left: 720px;
+
+}
+
+main h1{
+    font-size: 45px;
+    color: black;
+}
+
+main p{
+    font-size: 25px;
+    color: black;
+}
+
+.list{
+    font-size: 25px;
+    color: black;
+}
+
+main form{
+    justify-content: center;
+    display: flex;
+    margin-right: 50px;
+   
+}
+
+nav ul {
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+    margin: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #c2cfda;
+    min-width: 150px;
+    color: black;
+    
+}
+
+.dropdown-content a{
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+footer {
+    background-color: #1565c0;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p{
+    font-size:25px;
+}
